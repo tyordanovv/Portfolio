@@ -1,0 +1,91 @@
+.hero-image {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.hero-content {
+  flex: 1;
+  color: var(--primary-color);
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.hero-content h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  font-size: 24px;
+}
+
+.hero-content p span {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  display: flex;
+  gap: 20px;
+}
+
+.hero-buttons a {
+  font-weight: bold;
+  background-color: var(--primary-color);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  text-transform: uppercase;
+  padding: 16px 32px;
+  font-size: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-buttons a:hover {
+  opacity: 0.8;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+
+.hero-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 2rem;
+}
+
+.hero-image {
+  flex: 1;
+  /* Add additional styling for the image container */
+}
+
+@media (max-width: 768px) {
+  /* Adjust the layout for smaller screens */
+  .hero-main {
+    flex-direction: column;
+  }
+
+  .hero-text,
+  .hero-image {
+    flex: 1;
+  }
+}

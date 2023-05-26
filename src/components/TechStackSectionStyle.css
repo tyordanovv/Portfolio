@@ -1,0 +1,13 @@
+.transparent-image-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 4rem;
+  gap: 20px;
+}
+
+.transparent-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
