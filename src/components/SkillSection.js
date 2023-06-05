@@ -1,5 +1,6 @@
 import React from "react";
 import SkillCard from "./SkillCard";
+import "./SkillSectionStyle.css"
 
 const SkillsSection = () => {
   return (

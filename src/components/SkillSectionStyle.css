@@ -1,0 +1,10 @@
+.skill-cards{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    max-width: 90%;
+    grid-template-columns: 1fr;
+}

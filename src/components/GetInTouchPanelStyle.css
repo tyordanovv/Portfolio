@@ -20,6 +20,7 @@
 }
 
 .contact-button {
+  text-align: center;
   justify-content: center;
   margin-top: 40px;
   display: flex;
@@ -34,6 +35,52 @@
   cursor: pointer;
 }
 
+.contact-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-form {
+  flex: 1;
+  padding: 2rem;
+}
+
+.contact-image {
+  flex: 1;
+}
+
 .contact-button:hover {
   opacity: 0.8;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 90%;
+  padding: 10px;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form .form-row {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.contact-form .form-group {
+  flex-basis: 50%;
 }

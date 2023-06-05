@@ -75,7 +75,6 @@
 
 .hero-image {
   flex: 1;
-  /* Add additional styling for the image container */
 }
 
 @media (max-width: 768px) {

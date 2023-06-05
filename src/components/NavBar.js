@@ -23,7 +23,7 @@ const NavBar = () => {
           <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/Blog">Blog</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
